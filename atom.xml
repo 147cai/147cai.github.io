@@ -8,10 +8,253 @@
     <author>
       <name>liuhuan</name>
     </author>
-    <updated>2023-06-02T07:43:40.090Z</updated>
+    <updated>2023-06-16T08:38:23.420Z</updated>
     <category term="前端" />
     <category term=" React" />
     <category term=" 全栈" />
+    <entry>
+        <id>http://www.liuhuanblog.top/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
+        <title>git常用命令</title>
+        <link rel="alternate" href="http://www.liuhuanblog.top/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+        <content type="html">&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h2&gt;
+&lt;h5 id=&#34;第一次建立仓库时git操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一次建立仓库时git操作&#34;&gt;#&lt;/a&gt; 第一次建立仓库时 git 操作&lt;/h5&gt;
+&lt;figure class=&#34;highlight git&#34;&gt;&lt;figcaption data-lang=&#34;git&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;echo &lt;span class=&#34;token string&#34;&gt;&#34;# 147cai&#34;&lt;/span&gt; &gt;&gt; README.md&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git init&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git add README.md&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git commit -m &lt;span class=&#34;token string&#34;&gt;&#34;first commit&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git branch -M main&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git remote add origin git@github.com:147cai/147cai.git&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git push -u origin main&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;配置正常，只需提交代码 git 操作&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git stash save &#39;first&#39;
+git stash pop 0
+git pull
+解决文件冲突
+git add ./
+git status
+git commit -m &amp;quot;图标优化代码提交v-1.0.1&amp;quot;
+git push origin main 
+git log
+记录commit号以及提交标注
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;将代码提交到其他分支上&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git branch 查看分支
+git branch -a 查看所有远程仓库
+git branch 本地自定义仓库名称 origin/远程仓库   创建本地仓库链接远程分支/R1.8.3z.nsp.20210115
+git branch R3.1.0.release origin/R3.1.0.release   
+git checkout &amp;quot;本地分支名称&amp;quot;     切换分支
+git checkout R3.1.0.release
+git cherry-pick fad28fd284d95ecb6702d0179e5ee5577b9e1aa5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;![image-20230404091816652](D:\ 桌面 \ 暑假 \abt - 实习 \git\git 常用命令 \git 命令.assets\image-20230404091816652.png)&lt;/p&gt;
+</content>
+        <category term="笔记" scheme="http://www.liuhuanblog.top/categories/note/" />
+        <category term="git，tool" scheme="http://www.liuhuanblog.top/categories/note/git%EF%BC%8Ctool/" />
+        <category term="tool" scheme="http://www.liuhuanblog.top/tags/tool/" />
+        <category term="git" scheme="http://www.liuhuanblog.top/tags/git/" />
+        <updated>2023-06-16T08:38:23.420Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.liuhuanblog.top/mysql%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
+        <title>mysql常用命令</title>
+        <link rel="alternate" href="http://www.liuhuanblog.top/mysql%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+        <content type="html">&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h2&gt;
+&lt;h5 id=&#34;mysql常用命令记录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mysql常用命令记录&#34;&gt;#&lt;/a&gt; mysql 常用命令记录&lt;/h5&gt;
+&lt;p&gt;在学习 node 建立后端的过程中，发现之前学的 mysql 数据库忘记的差不多了，现做个记录&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;基础命令&lt;br /&gt;
+默认端口号：3306&lt;br /&gt;
+ 查看服务器版本：select version (); 或者 cmd 命令 mysql -verison&lt;br /&gt;
+ 登录数据库：mysql -uroot -p&lt;br /&gt;
+ 退出数据库：exit/quit&lt;br /&gt;
+ 查看当前系统下的数据库：show databases;&lt;br /&gt;
+ 创建数据库：create 库名；&lt;br /&gt;
+ 使用数据库：use 库名；&lt;br /&gt;
+ 查看表：show tables;&lt;br /&gt;
+ 建表：create table 表名 (字段名 + 空格 + 数据类型);&lt;br /&gt;
+ 查看表结构：desc 表名；&lt;br /&gt;
+ 添值：insert into 表名 (列名) values (值);&lt;br /&gt;
+ 查看表中所有数据：select * from 表名；&lt;br /&gt;
+ 查询建表时的结构：show create table 表名；&lt;br /&gt;
+ 删除字段中的值：delete from 表名 where 条件；&lt;br /&gt;
+ 删除表中的字段：delete from 表名 drop column 字段名；或者 alter table 表名 drop 字段名&lt;br /&gt;
+删除表：drop table 表名；&lt;br /&gt;
+ 删除库：drop database 库名；&lt;br /&gt;
+ 主键约束：primary key&lt;br /&gt;
+ 唯一约束：unique&lt;br /&gt;
+ 非空约束：not null&lt;br /&gt;
+ 默认约束：default&lt;br /&gt;
+ 外键约束：foreign key（外键）references 主表（主键）&lt;br /&gt;
+查看别的数据库的表格：show tables from 表名；&lt;/li&gt;
+&lt;li&gt;where 条件查询&lt;br /&gt;
+精确查询：=、!=、&amp;gt;、&amp;lt;、&amp;gt;=、&amp;lt;=&lt;br /&gt;
+ 模糊查询：like（像）、not like（不像）&lt;br /&gt;
+通配符：%：任意字符、-：单个字符&lt;br /&gt;
+逻辑运算符：&lt;br /&gt;
+and：同时满足（优先级大于 or）&lt;br /&gt;
+or：满足任意条件即可&lt;br /&gt;
+区间运算：between a and b （闭区间）&lt;br /&gt;
+集合运算：in 、not in&lt;br /&gt;
+ 非空运算：is null 、is not null&lt;/li&gt;
+&lt;li&gt;针对表内数据的操作&lt;br /&gt;
+增加：insert into 表名 (列名) values (值);&lt;br /&gt;
+ 删除：delete from 表名 where 条件；&lt;br /&gt;
+ 查看：select * from 表名 where 条件；&lt;br /&gt;
+ 修改：update 表名 set 字段 = 新值 where 条件；&lt;br /&gt;
+ 排序：order by 字段名；（asc 升序、desc 降序）&lt;br /&gt;
+例：select * from 表名 order by 列名 1 asc , 列名 2 desc;&lt;br /&gt;
+ 聚合函数：&lt;br /&gt;
+sum () 函数：求累加和&lt;br /&gt;
+例：select sum (字段名) as ‘别名’/ 别名 from 表名；&lt;br /&gt;
+count () 函数：同级行数数量&lt;br /&gt;
+（1）count (&lt;em&gt;)：表示计算表中总的行数，不管某列是否有数值或者是为空&lt;br /&gt;
+ select count (&lt;/em&gt;) from 表名；&lt;br /&gt;
+（2）count (字段名)：表示计算指定列下总的行数，计算或将忽略空值&lt;br /&gt;
+ select count (字段名) from 表名；&lt;br /&gt;
+avg () 函数：返回一个平均值函数&lt;br /&gt;
+例：select avg (字段名) as 别名 from 表名；&lt;br /&gt;
+max () 函数：返回指定列中的最大值&lt;br /&gt;
+ select max (字段名) as 别名 from 表名；&lt;br /&gt;
+min () 函数： 返回最小值&lt;br /&gt;
+例：select min (字段名) as 别名 from 表名；&lt;br /&gt;
+ 分组：&lt;br /&gt;
+group by 字段 ：将查询结果按一列 / 多列的值分组，值相等为一列&lt;br /&gt;
+ having 字段：二次判断，用到聚合函数后，又需筛选条件时，having 和 group by 组合用&lt;br /&gt;
+例：select 列名 1 ,count (列名 2) 别名 from 表名 group by 列名 1 having 别名 &amp;gt;2;&lt;br /&gt;
+ 限制查询结果输出条数：limit 数字&lt;br /&gt;
+传一个参数（输出前五条数据）&lt;br /&gt;
+select * from 表名 limit 5;&lt;br /&gt;
+ 传两个参数（输出 6-15）&lt;br /&gt;
+select * from 表名 limit 5,10;&lt;br /&gt;
+:5：从 5 后开始，10：条数&lt;br /&gt;
+修改表名：alter table 旧表名 rename 新表名；&lt;br /&gt;
+ 修改表中 id 字段为 sid：alter table 表名 change id sid char;&lt;br /&gt;
+ 去掉某列：alter table 表名 drop 列名；&lt;br /&gt;
+ 添加某列：alter table 表名 add 列名 char;&lt;br /&gt;
+ 修改列为字符型：alter table 表名 modify 列名 char (20);&lt;br /&gt;
+ 增加多列：alter table 表名 add (xh int (4),zc char (8),ads char (50),);&lt;br /&gt;
+ 删除多列：alter table 表名 drop xh,zc,ads;&lt;br /&gt;
+ 添加一个字段设主键约束：alter table 表名 add id sm unsigned primary key auto_increment;&lt;br /&gt;
+ 关联查询 - 等值查询：select * from 表名 where &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2EuaWQ9Yi5pZA==&#34;&gt;a.id=b.id&lt;/span&gt; and 条件&lt;br /&gt;
+内连接：select * from 表名 1 inner join 表名 2 on 表名 1.xh = 表名 2.xh where 条件；&lt;br /&gt;
+ 左连接：select * from 表名 1 left join 表名 2 on 表名 1.xh = 表名 2.xh where 条件；&lt;br /&gt;
+ 右连接：select * from 表名 1 right join 表名 2 on 表名 1.xh = 表名 2.xh where 条件；&lt;/li&gt;
+&lt;li&gt;创建索引&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;1. 要尽量避免全表扫描，首先应考虑在 where 及 order by 涉及的列上建立索引&lt;br /&gt;
+ 2. 在经常需要进行检索的字段上创建索引，比如要按照表字段 username 进行检索&lt;br /&gt;
+ 3. 一个表的索引数最好不要超过 6 个，若太多则应考虑一些不常使用到的列上建的索引是否有必要&lt;br /&gt;
+普通索引（INDEX）&lt;br /&gt;
+这是最基本的索引，它没有任何限制，比如上文中为 title 字段创建的索引就是一个普通索引，MyIASM 中默认的 BTREE 类型的索引，也是我们大多数情况下用到的索引。&lt;br /&gt;
+直接创建索引&lt;br /&gt;
+ CREATE INDEX index_name ON table (column (length));&lt;/p&gt;
+&lt;p&gt;修改表结构的方式添加索引&lt;br /&gt;
+ ALTER TABLE table_name ADD INDEX index_name ON (column (length));&lt;/p&gt;
+&lt;p&gt;创建表的时候同时创建索引&lt;br /&gt;
+ CREATE TABLE  &lt;code&gt;table&lt;/code&gt;  (&lt;br /&gt;
+ &lt;code&gt;id&lt;/code&gt;  int(11) NOT NULL AUTO_INCREMENT ,&lt;br /&gt;
+ &lt;code&gt;title&lt;/code&gt;  char(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,&lt;br /&gt;
+ &lt;code&gt;content&lt;/code&gt;  text CHARACTER SET utf8 COLLATE utf8_general_ci NULL ,&lt;br /&gt;
+ &lt;code&gt;time&lt;/code&gt;  int(10) NULL DEFAULT NULL ,&lt;br /&gt;
+PRIMARY KEY ( &lt;code&gt;id&lt;/code&gt; ), // 主键索引&lt;br /&gt;
+ INDEX index_name (title (length)) // 普通索引&lt;br /&gt;
+);&lt;/p&gt;
+&lt;p&gt;唯一索引（UNIQUE）&lt;br /&gt;
+与普通索引类似，不同的就是：索引列的值必须唯一，但允许有空值。如果是组合索引，则列值的组合必须是唯一的，创建方法和普通索引类似。&lt;br /&gt;
+创建唯一索引&lt;br /&gt;
+ CREATE UNIQUE INDEX index_name ON table (column (length));&lt;/p&gt;
+&lt;p&gt;修改表结构&lt;br /&gt;
+ ALTER TABLE table_name ADD UNIQUE INDEX index_name ON (column (length));&lt;/p&gt;
+&lt;p&gt;创建表时同时创建索引&lt;br /&gt;
+ CREATE TABLE  &lt;code&gt;table&lt;/code&gt;  (&lt;br /&gt;
+ &lt;code&gt;id&lt;/code&gt;  int(11) NOT NULL AUTO_INCREMENT ,&lt;br /&gt;
+ &lt;code&gt;title&lt;/code&gt;  char(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,&lt;br /&gt;
+ &lt;code&gt;content&lt;/code&gt;  text CHARACTER SET utf8 COLLATE utf8_general_ci NULL ,&lt;br /&gt;
+ &lt;code&gt;time&lt;/code&gt;  int(10) NULL DEFAULT NULL ,&lt;br /&gt;
+PRIMARY KEY ( &lt;code&gt;id&lt;/code&gt; ),&lt;br /&gt;
+UNIQUE indexName (title(length))&lt;br /&gt;
+);&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;多列索引
+语句一般都有比较多的限制条件，所以为了进一步榨取MySQL的效率，就要考虑建立组合索引。例如上表中针对title和time建立一个组合
+ALTER TABLE article ADD INDEX index_titme_time (title(50),time(10));
+
+ALTER TABLE `table_name` ADD INDEX index_name ( `column1`, `column2`, `column3` );
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;全文索引（FULLTEXT）&lt;br /&gt;
+ALTER TABLE  &lt;code&gt;table_name&lt;/code&gt;  ADD FULLTEXT (  &lt;code&gt;column&lt;/code&gt; );&lt;/p&gt;
+&lt;p&gt;主键索引（PRIMARY KEY）&lt;br /&gt;
+ALTER TABLE  &lt;code&gt;table_name&lt;/code&gt;  ADD PRIMARY KEY (  &lt;code&gt;column&lt;/code&gt;  );&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+        <category term="笔记" scheme="http://www.liuhuanblog.top/categories/note/" />
+        <category term="mysql，tool" scheme="http://www.liuhuanblog.top/categories/note/mysql%EF%BC%8Ctool/" />
+        <category term="mysql" scheme="http://www.liuhuanblog.top/tags/mysql/" />
+        <category term="tool" scheme="http://www.liuhuanblog.top/tags/tool/" />
+        <updated>2023-06-16T08:25:17.197Z</updated>
+    </entry>
+    <entry>
+        <id>http://www.liuhuanblog.top/node%E7%89%88%E6%9C%AC%E9%97%AE%E9%A2%98/</id>
+        <title>node版本问题</title>
+        <link rel="alternate" href="http://www.liuhuanblog.top/node%E7%89%88%E6%9C%AC%E9%97%AE%E9%A2%98/"/>
+        <content type="html">&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h2&gt;
+&lt;h5 id=&#34;今天在运行网上的一个项目时又一次遇到了node版本过高导致无法npm-install问题因此做个记录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#今天在运行网上的一个项目时又一次遇到了node版本过高导致无法npm-install问题因此做个记录&#34;&gt;#&lt;/a&gt; 今天在运行网上的一个项目时，又一次遇到了 node 版本过高导致无法 npm install 问题，因此做个记录&lt;/h5&gt;
+&lt;p&gt;nvm 是一个 Node.js 版本管理器 ，为了解决 Node 各种版本存在不兼容问题，Nvm 其实是让你在同一台机器上根据需要，安装 或 切换项目所对应的 Node 版本来适配项目。&lt;/p&gt;
+&lt;p&gt;nvm 安装等可以自行百度&lt;/p&gt;
+&lt;p&gt;命令	说明&lt;br /&gt;
+ nvm version	查看 nvm 版本&lt;br /&gt;
+ nvm ls	查看所有已经安装的 Nodejs 版本&lt;br /&gt;
+ nvm list installed	查看所有已经安装的 Nodejs 版本&lt;br /&gt;
+ nvm ls available	查看运程线上所有版本 (列出所有可以安装的 node 版本号)&lt;br /&gt;
+ nvm root	查看 nvm 安装路径&lt;br /&gt;
+ nvm arch	查看节点是否以 32 位或 64 位模式运行&lt;br /&gt;
+ nvm current	查看当前 node 版本&lt;br /&gt;
+ nvm proxy	查看设置与代理&lt;/p&gt;
+&lt;p&gt;安装不同 node 版本：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;nvm install latest&lt;/th&gt;
+&lt;th&gt;安装最新稳定版 Nodejs&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;nvm install 12.18.0&lt;/td&gt;
+&lt;td&gt;安装指定版本&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;nvm uninstall 12.18.0&lt;/td&gt;
+&lt;td&gt;卸载指定 12.18.0 版本&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;nvm use 版本号&lt;/td&gt;
+&lt;td&gt;切换版本（这个是全局的）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;---------------&lt;/td&gt;
+&lt;td&gt;------------------------&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;nvm use 12.18.0&lt;/td&gt;
+&lt;td&gt;切换到 2.18.0 版本&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+        <category term="笔记" scheme="http://www.liuhuanblog.top/categories/note/" />
+        <category term="node" scheme="http://www.liuhuanblog.top/categories/note/node/" />
+        <category term="tool" scheme="http://www.liuhuanblog.top/tags/tool/" />
+        <category term="node" scheme="http://www.liuhuanblog.top/tags/node/" />
+        <updated>2023-06-16T08:24:55.016Z</updated>
+    </entry>
     <entry>
         <id>http://www.liuhuanblog.top/Vue/</id>
         <title>Vue</title>
