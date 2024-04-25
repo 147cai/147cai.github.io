@@ -68,8 +68,8 @@ git cherry-pick fad28fd284d95ecb6702d0179e5ee5577b9e1aa5
 </content>
         <category term="笔记" scheme="http://www.liuhuanblog.top/categories/note/" />
         <category term="git，tool" scheme="http://www.liuhuanblog.top/categories/note/git%EF%BC%8Ctool/" />
-        <category term="git" scheme="http://www.liuhuanblog.top/tags/git/" />
         <category term="tool" scheme="http://www.liuhuanblog.top/tags/tool/" />
+        <category term="git" scheme="http://www.liuhuanblog.top/tags/git/" />
         <updated>2023-06-16T08:38:23.420Z</updated>
     </entry>
     <entry>
@@ -219,8 +219,8 @@ ALTER TABLE  &lt;code&gt;table_name&lt;/code&gt;  ADD PRIMARY KEY (  &lt;code&gt
 </content>
         <category term="笔记" scheme="http://www.liuhuanblog.top/categories/note/" />
         <category term="mysql，tool" scheme="http://www.liuhuanblog.top/categories/note/mysql%EF%BC%8Ctool/" />
-        <category term="tool" scheme="http://www.liuhuanblog.top/tags/tool/" />
         <category term="mysql" scheme="http://www.liuhuanblog.top/tags/mysql/" />
+        <category term="tool" scheme="http://www.liuhuanblog.top/tags/tool/" />
         <updated>2023-06-16T08:25:17.197Z</updated>
     </entry>
     <entry>
@@ -512,8 +512,8 @@ transition-delay ：指定开始出现的延迟时间&lt;/p&gt;
         <category term="笔记" scheme="http://www.liuhuanblog.top/categories/note/" />
         <category term="面试" scheme="http://www.liuhuanblog.top/categories/note/%E9%9D%A2%E8%AF%95/" />
         <category term="CSS" scheme="http://www.liuhuanblog.top/categories/note/%E9%9D%A2%E8%AF%95/CSS/" />
-        <category term="HTML" scheme="http://www.liuhuanblog.top/tags/HTML/" />
         <category term="CSS" scheme="http://www.liuhuanblog.top/tags/CSS/" />
+        <category term="HTML" scheme="http://www.liuhuanblog.top/tags/HTML/" />
         <updated>2023-06-02T07:43:40.080Z</updated>
     </entry>
     <entry>
