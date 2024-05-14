@@ -10,11 +10,28 @@
         </author>
         <description>东偶已逝 桑榆非晚</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 28 Aug 2023 16:12:41 +0800</pubDate>
-        <lastBuildDate>Mon, 28 Aug 2023 16:12:41 +0800</lastBuildDate>
+        <pubDate>Tue, 14 May 2024 12:02:14 +0800</pubDate>
+        <lastBuildDate>Tue, 14 May 2024 12:02:14 +0800</lastBuildDate>
         <category term="前端" />
         <category term=" React" />
         <category term=" 全栈" />
+        <item>
+            <guid isPermalink="true">http://www.liuhuanblog.top/acknowledgement/</guid>
+            <title>致谢</title>
+            <link>http://www.liuhuanblog.top/acknowledgement/</link>
+            <category term="致谢" scheme="http://www.liuhuanblog.top/categories/%E8%87%B4%E8%B0%A2/" />
+            <category term="致谢" scheme="http://www.liuhuanblog.top/tags/%E8%87%B4%E8%B0%A2/" />
+            <pubDate>Tue, 14 May 2024 12:02:14 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;毕业设计 致谢部分&lt;/p&gt;
+&lt;p&gt;写的时候感到有点惆怅，读了十几年书突然没书读了，以后要走入职场了，我大抵是不会去考研的，因此我人生的求学篇就结束了。我的求学算不上刻苦，大学的时候尤其的迷茫，但可能就是这样，每个阶段都会因为不同事而沉沉浮浮。但我是幸运的，至少对比很多人来说，生活没有特别大的起伏，只有一些小的平仄。写致谢的时候，写一句可能需要十几分钟甚至更长，因为每写一句，都是我大学的回忆，思想就像放电影一样自动去浮现那一幕幕。我大学的社交比较小，大一的时候没有去尝试很多新的事物，笔记本上留下了很多的遗憾。但是我也遇到了不少能彻夜长谈的人，他（她）们都很优秀，我发现跟我相处的特别好的人，都是性格上特别好的人。谦谦君子，温文如玉。多幸运，在最美的年纪，遇到最美的你们。&lt;/p&gt;
+&lt;h5 id=&#34;致谢&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#致谢&#34;&gt;#&lt;/a&gt; 致谢&lt;/h5&gt;
+&lt;p&gt;行文至此，已是终章，敲下致谢二字，意味着人生中的求学篇落下帷幕，在巡司河畔的故事，始于 20 年初秋，终于 24 年盛夏。四年恍如昨日，时光易逝，韶华难追。纵有万般不舍，但仍心怀感恩。&lt;/p&gt;
+&lt;p&gt;桃李虽寂，师恩永铭。感谢王菁导师，在科研领域不辞幸苦地引导我向前探索，在迷茫时给予我指导，一步步地帮助我建立紧密的思维。无论是线上的指导和交流，还是在线下一起逐字逐句地打磨论文，至今仍历历在目。这段经历促使我形成更加严谨、规范的学术态度，为我打下了良好的科研基础，使我受益良多。还有许多在大学的遇到的老师以及辅导员，带给我的不仅仅是老师的传道授业解惑，还有许多如同长辈，朋友般的交谈跟开导。得遇良师，幸甚至哉。&lt;/p&gt;
+&lt;p&gt;玉兰花开，友谊长存。非常幸运在大学遇到了很多优秀的人，因共同进步，所以是同学；又志同道合，所以是同志；最后且互帮互助，所以是挚友。校园里不掺查任何利益的友情，才显得更加日久弥新。愿良辰美景，有友同行，初心常青，理想长鸣。&lt;/p&gt;
+&lt;p&gt;父慈母爱，含辛茹苦。站在父母的肩膀上，让我看到的大多数是生活的美好。除了物质基础，更多的是体贴入微的照顾跟支持，给了我据理力争的勇气，积极进取的锐气，甚至拥有放手一搏的飒气。他们是我的后路，在这后路里，我能成为他们的艺术品。望身体健康，一切安好。&lt;/p&gt;
+&lt;p&gt;时光知味，岁月沉香。这些点点滴滴，给予我勇气和耐心去面对未来的困难和挑战。四年时光有起有伏，成功失败、快乐悲伤，迷茫困惑，凡所经历皆为成长，皆需感恩。大成若缺，小满既康。往后时光，时刻谨记知足而上进。山水相逢，终有一别，恋恋不忘，必有回响，后会有期。&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://www.liuhuanblog.top/vue3+ts%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
             <title>vue3+ts中遇到的问题</title>
@@ -46,8 +63,8 @@ export default component&lt;br /&gt;
             <link>http://www.liuhuanblog.top/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
             <category term="笔记" scheme="http://www.liuhuanblog.top/categories/note/" />
             <category term="git，tool" scheme="http://www.liuhuanblog.top/categories/note/git%EF%BC%8Ctool/" />
-            <category term="git" scheme="http://www.liuhuanblog.top/tags/git/" />
             <category term="tool" scheme="http://www.liuhuanblog.top/tags/tool/" />
+            <category term="git" scheme="http://www.liuhuanblog.top/tags/git/" />
             <pubDate>Fri, 16 Jun 2023 16:38:23 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h2&gt;
 &lt;h5 id=&#34;第一次建立仓库时git操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一次建立仓库时git操作&#34;&gt;#&lt;/a&gt; 第一次建立仓库时 git 操作&lt;/h5&gt;
@@ -81,8 +98,8 @@ git cherry-pick fad28fd284d95ecb6702d0179e5ee5577b9e1aa5
             <link>http://www.liuhuanblog.top/mysql%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
             <category term="笔记" scheme="http://www.liuhuanblog.top/categories/note/" />
             <category term="mysql，tool" scheme="http://www.liuhuanblog.top/categories/note/mysql%EF%BC%8Ctool/" />
-            <category term="tool" scheme="http://www.liuhuanblog.top/tags/tool/" />
             <category term="mysql" scheme="http://www.liuhuanblog.top/tags/mysql/" />
+            <category term="tool" scheme="http://www.liuhuanblog.top/tags/tool/" />
             <pubDate>Fri, 16 Jun 2023 16:25:17 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h2&gt;
 &lt;h5 id=&#34;mysql常用命令记录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mysql常用命令记录&#34;&gt;#&lt;/a&gt; mysql 常用命令记录&lt;/h5&gt;
@@ -567,7 +584,7 @@ post 请求的请求参数都是请求 body 中&lt;/p&gt;
             <category term="喜欢的文章" scheme="http://www.liuhuanblog.top/categories/%E5%96%9C%E6%AC%A2%E7%9A%84%E6%96%87%E7%AB%A0/" />
             <category term="喜欢的文章" scheme="http://www.liuhuanblog.top/tags/%E5%96%9C%E6%AC%A2%E7%9A%84%E6%96%87%E7%AB%A0/" />
             <pubDate>Tue, 26 Apr 2022 12:02:14 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;抖音上刷到的一个公务员写的文章，不知道为什么有点感同身受，觉得写的很好，因此记录。&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;抖音上刷到的一个公务员写的文章，觉得写的很好，想记录一下啊。&lt;/p&gt;
 &lt;h5 id=&#34;后路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#后路&#34;&gt;#&lt;/a&gt; 后路&lt;/h5&gt;
 &lt;p&gt;曾经有一个要好的同事，前两年遴选去了省直部门，依稀记得当时的我怀着功利心说了一句 “苟富贵，勿相忘” 的临别赠言。过年期间，相约小酌，曾经那个高谈阔论、愤世嫉俗的青云志士却变得。鬓角几白、郁郁寡欢。席间他说，他不知道自己的后路在哪里。不禁感慨，曾几何时，话题已由出路变成了后路。&lt;/p&gt;
 &lt;p&gt;这个话题不好讲，拿捏不好尺度，就会被冠以好逸恶劳之流。但这几年我深知，很多之前幻想爬到山顶的人却开始想着走出一条林间小道。这个职业，享受光环之下的众星捧月，也深感重压之时的冷暖自知，矛盾地影射着这个群体的每一个人。相较于其他行业，能与之对比的优势逐渐只剩下稳定二字能够宽慰自己，而那画面却像极了温水里煮的青蛙。&lt;/p&gt;
